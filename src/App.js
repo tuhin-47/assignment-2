@@ -49,7 +49,7 @@ class App extends React.Component{
         <input type="text" onChange={this.inputHandler} value={this.state.inputMsg} />
         <p>Length of input field is : {this.state.inputLength}</p>
         <Validation length={this.state.inputLength} />
-        
+        <p> Click on Text box bellow to Remove</p>
         {charPara}
       </div>
     );
