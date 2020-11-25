@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  background: lightskyblue;
+  width: 60%;
+  margin: auto;
+  border-radius: 5px;
+}
+.App > h2 {
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0.5rem;
+}
+
+.App > input {
+  font-size: 1.125rem;
+  padding: 0.5rem;
+  box-shadow: 0 2px 3px #ddd;
+  border-radius: 5px;
+}
